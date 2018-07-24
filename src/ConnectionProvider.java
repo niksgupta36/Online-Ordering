@@ -20,7 +20,7 @@ public class ConnectionProvider {
 		try{
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			conn=DriverManager.getConnection(connectionString);
-			System.out.println(conn);
+			//System.out.println(conn);
 			
 		}catch(Exception e){
 			e.printStackTrace();

@@ -5,6 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <dependencies>
+  
+
+
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.0.1</version>
+</dependency>
+
     <dependency>
         <groupId>com.microsoft.azure</groupId>
         <artifactId>azure-core</artifactId>
@@ -21,6 +31,7 @@
         <version>0.9.7</version>
     </dependency>
 </dependencies>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>

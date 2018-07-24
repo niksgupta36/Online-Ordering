@@ -60,7 +60,7 @@ public String getFaceId(File file) {
         if (entity != null)
         {
             // Format and display the JSON response.
-            System.out.println("REST Response:\n");
+       //     System.out.println("REST Response:\n");
 
             String jsonString = EntityUtils.toString(entity).trim();
             if (jsonString.charAt(0) == '[') {
